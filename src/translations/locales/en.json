@@ -1,0 +1,137 @@
+{
+  "unknown": "Unknown",
+  "auth": {
+    "login": "Login",
+    "logout": "Logout"
+  },
+  "common": {
+    "cancel": "Cancel",
+    "clear": "Clear",
+    "copy": "Copy to Clipboard",
+    "delete": "Delete",
+    "observed_on": "Observed On",
+    "or": "or",
+    "toggle": "Toggle",
+    "close": "Close",
+    "offline": "You are offline"
+  },
+  "form": {
+    "audio": {
+      "start": "Start Recording",
+      "stop": "Stop Recording",
+      "title": "Audio Recorder"
+    },
+    "date_accuracy": "Date Accuracy",
+    "date_accuracy_options": {
+      "accurate": "Accurate",
+      "approximate": "Approximate",
+      "unknown": "Unknown"
+    },
+    "description": {
+      "audio": "Recording will automatically stop after two minutes",
+      "my_uploads": "Upload and store media here for a period of 20 days. Select images to use in observation",
+      "resources": "Upload image, audio or video files of a single observation from your device. (Use ratings to order images)",
+      "title": "Description"
+    },
+    "from_url": "YouTube",
+    "language": "Language",
+    "location_accuracy_options": {
+      "accurate": "Accurate",
+      "approximate": "Approximate",
+      "country": "Country",
+      "local": "Local",
+      "region": "Region"
+    },
+    "map": {
+      "hide": "Simplified Edit",
+      "show": "Advanced Edit"
+    },
+    "my_uploads": "Draft Media",
+    "my_uploads_sort": {
+      "taken_on": "Taken on",
+      "uploaded_on": "Uploaded on"
+    },
+    "selected_media": "Selected",
+    "species_groups": "Species Groups",
+    "tags": "Tags",
+    "tags_hint": "Start typing to search tags",
+    "terms": "By submitting this form, you agree that the photos or videos you are submitting are taken by you, or you have permission of the copyright holder to upload them on creative commons licenses. Creative Commons - Attribution (CC-BY) will apply to all data provided.",
+    "upload_status": {
+      "failed": "Failed",
+      "pending": "Pending",
+      "uploaded": "Uploaded to Draft Media",
+      "uploading": "Uploading"
+    },
+    "uploader": {
+      "browse": "Browse",
+      "description": "(Only JPG, JPEG, PNG, MP3 ,MP4 files will be accepted)",
+      "label": "Drop file(s) here",
+      "label_release": "Ready to upload",
+      "processing": "Processing",
+      "upload": "Upload",
+      "uploading": "Uploading..."
+    },
+    "use_in_observation": "Use Selected",
+    "youtube_placeholder": "Input YouTube link"
+  },
+  "myObservations": {
+    "pending": "Pending",
+    "uploaded": "Uploaded",
+    "title": "My Observations"
+  },
+  "observation": {
+    "add_observation": "Add Observation",
+    "common_name": "Common Name",
+    "coordinates": "Coordinates",
+    "custom_fields": "Custom Fields",
+    "delete_file": {
+      "error": "Unable to process file,Please try again later",
+      "failed": "Unable to delete file, please try again later",
+      "success": "File deleted successfully"
+    },
+    "help_identify": "Help Identify",
+    "hide_precise_location": "Hide Precise Location",
+    "last_location": "Use last location",
+    "latitude": "Latitude",
+    "list": {
+      "title": "Recent Observations"
+    },
+    "show": "Show Observation",
+    "location_placeholder": "Enter a location",
+    "location_scale": "Location Accuracy",
+    "longitude": "Longitude",
+    "min_three_chars": "Input at least 3 characters to search",
+    "notes": "Notes",
+    "observed_at": "Location Observed At",
+    "pending": {
+      "title": "Pending Observations"
+    },
+    "scientific_name": "Scientific Name",
+    "use_last_value": "Use last value",
+    "points_gained": "{{points}} activity point(s) gained",
+    "sync": {
+      "done": "Done",
+      "failed": "Failed",
+      "title": "Pending Observation(s)",
+      "uploading": "Uploading",
+      "view": "View"
+    },
+    "status": {
+      "success": "Observation Created Successfully",
+      "failure": "Observation Saved Successfully",
+      "default": "Uploading Observation"
+    }
+  },
+  "show": {
+    "name": "Name",
+    "group": "Group",
+    "place": "Place",
+    "observed_on": "Observed On",
+    "created_on": "Created On",
+    "location": "Location"
+  },
+  "use_in_observation": "Use Selected",
+  "userGroup": {
+    "title": "My Groups"
+  }
+}

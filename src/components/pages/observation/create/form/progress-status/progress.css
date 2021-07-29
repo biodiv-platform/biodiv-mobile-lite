@@ -1,0 +1,13 @@
+.progress-screen {
+  color: var(--ion-color-medium);
+  height: 80vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.progress-screen img {
+  width: 70px;
+}

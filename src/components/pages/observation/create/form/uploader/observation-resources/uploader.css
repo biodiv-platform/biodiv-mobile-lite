@@ -1,0 +1,53 @@
+.resource-card {
+  min-height: 20rem;
+  border-radius: 0.5rem;
+  border: 1px solid var(--ion-color-medium);
+  padding: 0.5rem;
+  position: relative;
+}
+
+.resource-img-container {
+  position: relative;
+  height: 12rem;
+}
+
+.resource-img-container img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  border-radius: 0.4rem;
+}
+
+.resource-img-container .icon {
+  position: absolute;
+  bottom: 0.5rem;
+  left: 0.5rem;
+}
+
+.rating {
+  display: flex;
+  justify-content: center;
+  font-size: 1.5rem;
+  line-height: 1rem;
+}
+
+.close-button {
+  position: absolute;
+  top: 0.5rem;
+  right: 0.5rem;
+}
+
+.droptarget {
+  border: 2px dashed var(--ion-color-medium);
+  border-radius: 0.5rem;
+  padding: 1rem;
+  min-height: 14rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.droptarget > div {
+  text-align: center;
+}

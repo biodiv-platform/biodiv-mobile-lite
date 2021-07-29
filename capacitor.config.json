@@ -1,0 +1,13 @@
+{
+  "appId": "com.mobisys.android.ibp",
+  "appName": "Biodiv Mobile Lite",
+  "webDir": "build",
+  "bundledWebRuntime": false,
+  "npmClient": "yarn",
+  "plugins": {
+    "SplashScreen": {
+      "launchShowDuration": 0
+    }
+  },
+  "cordova": {}
+}

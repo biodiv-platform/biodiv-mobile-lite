@@ -1,0 +1,8 @@
+#places-search {
+  width: 100%;
+  border: 1px solid var(--ion-color-medium);
+  border-radius: 0.25rem;
+  height: 40px;
+  padding: 5px 10px;
+  background: white;
+}

@@ -1,0 +1,7 @@
+{
+  "name": "Biodiv Mobile Lite",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react"
+}

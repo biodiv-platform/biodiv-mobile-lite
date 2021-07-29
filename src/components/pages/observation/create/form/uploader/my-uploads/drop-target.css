@@ -1,0 +1,66 @@
+.drop-target-box {
+  cursor: pointer;
+  border: 2px dashed var(--ion-color-medium);
+  border-radius: 0.5rem;
+  position: absolute;
+  text-align: center;
+  padding: 1rem;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.check-container {
+  border-radius: 0.5rem;
+  border: 2px solid var(--ion-color-medium);
+  background: white;
+  overflow: hidden;
+}
+
+.check-container[data-checked] {
+  border-color: var(--ion-color-primary);
+}
+
+.check-container .check-img {
+  filter: none;
+  border-radius: 0.3rem;
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.check-img-box {
+  cursor: pointer;
+  display: flex;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  padding: 0.4rem;
+}
+
+.check-img-box .icon {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  margin: 0.7rem;
+}
+
+.check-img-box .remove {
+  padding: 1rem;
+  position: absolute;
+  margin: 0;
+  top: 0;
+  left: 0;
+}
+
+.uploaded-asset-list {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  grid-gap: 1rem;
+}

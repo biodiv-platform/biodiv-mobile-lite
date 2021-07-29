@@ -1,0 +1,60 @@
+body {
+  color: var(--ion-text-color, #202124);
+}
+
+.w-full {
+  width: 100%;
+}
+
+.PhoneInput .PhoneInputCountrySelect {
+  display: none !important;
+}
+
+.PhoneInput {
+  width: 100%;
+}
+
+.PhoneInputCountryIconUnicode,
+.PhoneInputCountryIcon {
+  position: absolute;
+  bottom: 5px;
+  left: 0;
+}
+
+.PhoneInput input {
+  padding-left: 25px !important;
+  padding-bottom: 0 !important;
+}
+
+.PhoneInput svg {
+  height: 1rem;
+}
+
+.rs-container {
+  width: 100%;
+  margin-top: 0.8rem;
+  padding-bottom: 1rem;
+}
+.spinner {
+  transform: scale(1.5);
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+.input-border {
+  width: 100%;
+  border-width: 50px;
+}
+.youtube-button {
+  margin-left: 15px;
+}
+
+.img-2 {
+  height: 2rem;
+  width: 2rem;
+}
+
+ion-avatar {
+  background: #e2e8f0;
+}

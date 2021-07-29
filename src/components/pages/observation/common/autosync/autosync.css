@@ -1,0 +1,72 @@
+.syncbox-container {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  padding: 1.5rem;
+  z-index: 12;
+  width: 100%;
+  max-width: 25rem;
+}
+
+@media (max-width: 576px) {
+  .syncbox-container {
+    max-width: 100%;
+  }
+}
+
+.syncbox-container > div {
+  width: 100%;
+  background: white;
+  border-radius: 0.25rem;
+  overflow: hidden;
+}
+.syncbox-container > div .header {
+  background: var(--ion-color-dark);
+  color: white;
+  display: flex;
+  align-items: center;
+  padding: 0.9rem 1rem;
+}
+.syncbox-container > div .header .text {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  flex-grow: 1;
+  justify-content: flex-start;
+}
+.syncbox-container > div .header .icons {
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+}
+.syncbox-container > div .content {
+  max-height: 14rem;
+  overflow: auto;
+}
+
+.pending-observation-box {
+  border-top: 1px solid var(--ion-color-light);
+  padding: 1rem;
+  display: flex;
+  line-height: 1.2rem;
+}
+.pending-observation-box img {
+  border-radius: 0.25rem;
+  margin-right: 1rem;
+  height: 46px;
+  width: 46px;
+  object-fit: cover;
+}
+.pending-observation-box small {
+  display: block;
+  margin-bottom: 0.25rem;
+}
+
+.sync-min-max {
+  font-size: 1.2rem;
+  margin-right: 0.5rem;
+}
+
+.sync-close {
+  font-size: 1.4rem;
+}

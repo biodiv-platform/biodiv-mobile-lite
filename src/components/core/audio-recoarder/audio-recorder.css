@@ -1,0 +1,8 @@
+.recorder {
+  border: 1px solid var(--ion-color-medium);
+  border-radius: 0.5rem;
+  font-family: monospace;
+  font-size: 2rem;
+  text-align: center;
+  width: 8rem;
+}

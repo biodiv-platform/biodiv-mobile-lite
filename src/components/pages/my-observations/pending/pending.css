@@ -1,0 +1,13 @@
+.no-pending {
+  color: var(--ion-color-medium);
+  height: 80vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.no-pending img {
+  width: 70px;
+}
